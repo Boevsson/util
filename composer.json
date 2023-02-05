@@ -1,0 +1,15 @@
+{
+    "name": "hphio/util",
+    "description": "Various convenience and utility classes",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+      "psr-4": {
+        "hphio\\util\\": "src"
+      }
+  },
+    "require": {
+        "league/container": "^4.2"
+    }
+}
